@@ -1,4 +1,4 @@
-import { HttpStatusCode } from '../constants/constants';
+import { HttpStatusCode } from 'axios';
 
 export class AppError extends Error {
   status: HttpStatusCode;
